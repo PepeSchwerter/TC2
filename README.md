@@ -27,7 +27,7 @@
     (64, 'Madden NFL 2000', 'PS', 'EA Sports', 'Sports', None, (1999, 7, 31))
     (93, 'Rugrats Studio Tour', 'PS', 'THQ', 'Adventure', None, (1999, 11, 10))...]
  ```
- * Desafio: Programe la misma funcion pero que a la vez reciba el mes y el dia como parametros opcionales.
+ * __Desafio__: Programe la misma funcion pero que a la vez reciba el mes y el dia como parametros opcionales.
  * Escriba una funcion que reciba el año de salida, y muestre en pantalla el juego mas vendido de cada genero para ese año, imprimiendo ademas la consola al que pertenece.
  Ejemplo:
   ``` [Python]
