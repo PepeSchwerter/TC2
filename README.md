@@ -9,11 +9,11 @@
  ```
  * Con esto realizado dispondran de una lista llamada __games__ y un diccionario llamado __sales__ cuya estructura es la siguiente:    
  ``` [Python]
- games =  [(id_juego,nombre,consola,desarrollador,genero,crtica,(año_salida,mes_salida,dia_salida))...]
- sales = {id_juego : (ventas_NA,ventas_PAL,ventas_Japon,ventas_Otros)...}
+ games =  [(id_juego,nombre,consola,desarrollador,genero,crtica,(año_salida,mes_salida,dia_salida)),...]
+ sales = {id_juego : (ventas_NA,ventas_PAL,ventas_Japon,ventas_Otros),...}
  ```
 
-* __Importante__: Es posible que algunos valores puedan tomar el valor *None* si es que no se tiene registro de este. Tenga en cuenta esto al momento de usar las estructuras. Los valores que pueden tomar este valor son:
+* __Importante__: Es posible que algunos valores puedan tomar el valor *None* si es que no se tiene registro de este. Tenga en cuenta esto al momento de usar las estructuras. Las variables que pueden tomar este valor son:
   * La critica del juego
   * La tupla con la fecha de salida
   * Cualquier elemento de la tupla de ventas
@@ -25,13 +25,13 @@
     (59, 'Need for Speed: High Stakes', 'PS', 'Electronic Arts', 'Racing', None, (1999, 3, 1))
     (60, 'Star Wars Episode I Racer', 'N64', 'LucasArts', 'Racing', 8.7, (1999, 5, 19))
     (64, 'Madden NFL 2000', 'PS', 'EA Sports', 'Sports', None, (1999, 7, 31))
-    (93, 'Rugrats Studio Tour', 'PS', 'THQ', 'Adventure', None, (1999, 11, 10))...]
+    (93, 'Rugrats Studio Tour', 'PS', 'THQ', 'Adventure', None, (1999, 11, 10)),...]
  ```
  * __Desafio__: Programe la misma funcion pero que a la vez reciba el mes y el dia como parametros opcionales.
  * Escriba una funcion que reciba el año de salida, y muestre en pantalla el juego mas vendido de cada genero para ese año, imprimiendo ademas la consola al que pertenece.
  Ejemplo:
   ``` [Python]
- genresTopOne(2000)
+ genresTopOne(1999)
  Generos  1999
  -  Role-Playing :  Pokmon Yellow: Special Pikachu Edition  -  GB
  -  Puzzle :  Pong: The Next Level  -  PS
