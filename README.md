@@ -9,10 +9,14 @@
  ```
  * Con esto realizado dispondran de una lista llamada __games__ y un diccionario llamado __sales__ cuya estructura es la siguiente:    
  ``` [Python]
- ga [(id_juego,nombre,consola,desarrollador,genero,crtica,(año_salida,mes_salida,dia_salida))...]
+ games =  [(id_juego,nombre,consola,desarrollador,genero,crtica,(año_salida,mes_salida,dia_salida))...]
  sales = {id_juego : (ventas_NA,ventas_PAL,ventas_Japon,ventas_Otros)...}
  ```
 
+* __Importante__: Es posible que algunos valores puedan tomar el valor *None* si es que no se tiene registro de este. Tenga en cuenta esto al momento de usar las estructuras. Los valores que pueden tomar este valor son:
+  * La critica del juego
+  * La tupla con la fecha de salida
+  * Cualquier elemento de la tupla de ventas
  * Programe una funcion que pueda recibir como parametro opcional el año de lanzamiento, y devuelva una sub-lista de __games__ cuyo año de lanzamiento sea el ingresado. Si no se ingresa nada devuelve la misma lista.  
  Ejemplo:
  ``` [Python]
